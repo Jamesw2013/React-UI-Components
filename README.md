@@ -37,16 +37,16 @@
 
 #### Project 1 MVP requirements
 
-- Create a `<HeaderContainer />` container component that will hold your header components.
+- [x] Create a `<HeaderContainer />` container component that will hold your header components.
 
-  - Create an `<ImageThumbnail />` component using this image url https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png as it's img src.
-  - Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
-  - Create a `<HeaderContent />` component that displays the copy provided in the headers content.
+  - [x] Create an `<ImageThumbnail />` component using this image url https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png as it's img src.
+  - [x] Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
+  - [x] Create a `<HeaderContent />` component that displays the copy provided in the headers content.
 
-- Create a `<CardContainer/ >` container component that will hold your card components.
-  - Create a `<CardBanner />` component that will display this image as it's background: https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png
-  - Create a `<CardContent />` component that displays the card copy provided.
-  - The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
+- [x] Create a `<CardContainer/ >` container component that will hold your card components.
+  - [x] Create a `<CardBanner />` component that will display this image as it's background: https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png
+  - [x] Create a `<CardContent />` component that displays the card copy provided.
+  - [x] The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
 
 #### Project 1 Stretch Problems
 
@@ -70,16 +70,16 @@
 
 #### Project 2 MVP requirements
 
-- Create a `<NumberButton />` component that can accept `props` and display any number/symbol passed down as `text`.
+- [x] Create a `<NumberButton />` component that can accept `props` and display any number/symbol passed down as `text`.
   - Example your component should be able to render a dynamic prop called text:
-  - Your button button should also be able to accept dynamic props `buttonStyle` for styling
+  - [x] Your button button should also be able to accept dynamic props `buttonStyle` for styling
 
 ```js
 <button className={props.buttonStyle}>{props.text}</button>
 ```
 
-- Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
-- Create a `<CalculatorDisplay />` component that will be used as the `calculator display`
+- [x] Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
+- [x] Create a `<CalculatorDisplay />` component that will be used as the `calculator display`
 
 #### Project 2 Stretch Problems
 
